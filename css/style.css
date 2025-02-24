@@ -135,6 +135,13 @@ section span {
     }
 }
 
+@media (max-width: 414px) {
+    .main__products__subtitle {
+        font-size: 3.0rem;
+        line-height: 4.5rem;
+        text-align: center;
+    }
+}
 
 .card-bg {
     background: rgb(234, 242, 242);
