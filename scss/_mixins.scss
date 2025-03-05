@@ -1,0 +1,70 @@
+/* Mixins generales */
+
+@mixin width($size) {
+    width: $size;
+}
+
+@mixin height($size) {
+    height: $size;
+}
+
+@mixin margin($size){
+    margin: $size;
+}
+
+@mixin top($size){
+    top: $size;
+}
+
+@mixin right($size){
+    right: $size;
+}
+
+@mixin left($size){
+    left: $size;
+}
+
+@mixin bottom($size){
+    bottom: $size;
+}
+
+@mixin margin-top($size) {
+    margin-top: $size;
+}
+
+@mixin margin-right($size) {
+    margin-right: $size;
+}
+
+@mixin margin-left($size) {
+    margin-left: $size;
+}
+
+@mixin margin-bottom($size) {
+    margin-bottom: $size;
+}
+
+@mixin padding($size){
+    padding: $size;
+}
+
+@mixin padding-top($size) {
+    padding-top: $size;
+}
+
+@mixin padding-bottom($size) {
+    padding-bottom: $size;
+}
+
+@mixin padding-left($size) {
+    padding-left: $size;
+}
+
+@mixin padding-right($size) {
+    padding-right: $size;
+}
+
+@mixin font-size($size) {
+    font-size: $size;
+}
+
