@@ -17,6 +17,11 @@
     src: url(../assets/font/asusrog_regular.ttf);
 }
 
+@font-face{
+    font-family: 'ASUS Sans Serif';
+    src: url(../assets/font/Zebulon.otf);
+}
+
 /* Clases y estilos */
 
 * {
@@ -66,6 +71,16 @@ section{
         @include font-size(20px);
     }
 
+}
+
+.font-asus-title{
+    font-family: 'ASUS Sans Serif';
+    @include font-size(100px);
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.text-subtitle-color{
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .why__us{
