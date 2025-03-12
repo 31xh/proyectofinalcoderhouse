@@ -9,7 +9,14 @@
 @font-face{
     font-family: 'ASUS Sans';
     src: url(../assets/font/LT\ Asus\ Light\ 300.ttf);
+    font-weight: bold;
     font-weight: 300;
+}
+
+@font-face{
+    font-family: 'ASUS Bolder';
+    src: url(../assets/font/LT\ Asus\ Bold\ 700.ttf);
+    font-weight: 700;
 }
 
 @font-face{
@@ -71,6 +78,63 @@ section{
         @include font-size(20px);
     }
 
+}
+
+// Variables
+$primary-color: white;
+$font-size-large: 2rem;
+$transition-duration: 1s;
+$video-height: 100vh;
+
+// Mixin para centrar elementos
+@mixin center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+// Mixin para animaciones
+@mixin fade-in($duration) {
+    opacity: 0;
+    transition: opacity $duration ease-in-out;
+}
+
+// Estilos para el video
+video {
+    width: 100%;
+    height: 100%;
+    
+}
+
+// Texto sobre el video
+.video-text {
+    font-family: 'ASUS Bolder';
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    
+    a{
+        text-decoration: none;
+        position: absolute;
+        left: 50%;
+    }
+}
+
+#hero{
+    h1{
+        animation: fadeIn;
+        animation-duration: 4s;
+    }
+
+    p{
+        animation: fadeIn;
+        animation-duration: 10s;
+    }
 }
 
 .font-asus-title{

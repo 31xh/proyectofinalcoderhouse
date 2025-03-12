@@ -22,6 +22,18 @@
   main .finisher-header {
     height: 100vh;
   }
+  main .video-text {
+    font-size: 1.3rem;
+    top: 20%;
+  }
+  main .video-text h1 {
+    font-size: 1.3rem;
+  }
+  main .video-text a {
+    top: 80%;
+    left: 20%;
+    font-size: 1.3rem;
+  }
 }
 @media (max-width: 768px) {
   main .main__productos__title {
@@ -39,6 +51,18 @@
   }
   main .finisher-header {
     height: 100vh;
+  }
+  main .video-text {
+    font-size: 1.3rem;
+    top: 20%;
+  }
+  main .video-text h1 {
+    font-size: 1.3rem;
+  }
+  main .video-text a {
+    top: 80%;
+    left: 20%;
+    font-size: 1.3rem;
   }
 }
 @media (max-width: 430px) {
@@ -58,6 +82,18 @@
   main .finisher-header {
     height: 100vh;
   }
+  main .video-text {
+    font-size: 0.7rem;
+    top: 18%;
+  }
+  main .video-text h1 {
+    font-size: 0.7rem;
+  }
+  main .video-text a {
+    top: 70%;
+    left: 20%;
+    font-size: 0.9rem;
+  }
 }
 @media (max-width: 414px) {
   main .main__productos__title {
@@ -76,6 +112,18 @@
   main .finisher-header {
     height: 100vh;
   }
+  main .video-text {
+    font-size: 0.7rem;
+    top: 18%;
+  }
+  main .video-text h1 {
+    font-size: 0.7rem;
+  }
+  main .video-text a {
+    top: 70%;
+    left: 20%;
+    font-size: 0.9rem;
+  }
 }
 @media (max-width: 375px) {
   main .main__productos__title {
@@ -93,6 +141,18 @@
   }
   main .finisher-header {
     height: 100vh;
+  }
+  main .video-text {
+    font-size: 0.7rem;
+    top: 25%;
+  }
+  main .video-text h1 {
+    font-size: 0.7rem;
+  }
+  main .video-text a {
+    top: 70%;
+    left: 20%;
+    font-size: 0.9rem;
   }
 }
 /* Mixins generales */
@@ -116,6 +176,18 @@
   main .finisher-header {
     height: 100vh;
   }
+  main .video-text {
+    font-size: 1.3rem;
+    top: 20%;
+  }
+  main .video-text h1 {
+    font-size: 1.3rem;
+  }
+  main .video-text a {
+    top: 80%;
+    left: 20%;
+    font-size: 1.3rem;
+  }
 }
 @media (max-width: 768px) {
   main .main__productos__title {
@@ -133,6 +205,18 @@
   }
   main .finisher-header {
     height: 100vh;
+  }
+  main .video-text {
+    font-size: 1.3rem;
+    top: 20%;
+  }
+  main .video-text h1 {
+    font-size: 1.3rem;
+  }
+  main .video-text a {
+    top: 80%;
+    left: 20%;
+    font-size: 1.3rem;
   }
 }
 @media (max-width: 430px) {
@@ -152,6 +236,18 @@
   main .finisher-header {
     height: 100vh;
   }
+  main .video-text {
+    font-size: 0.7rem;
+    top: 18%;
+  }
+  main .video-text h1 {
+    font-size: 0.7rem;
+  }
+  main .video-text a {
+    top: 70%;
+    left: 20%;
+    font-size: 0.9rem;
+  }
 }
 @media (max-width: 414px) {
   main .main__productos__title {
@@ -169,6 +265,18 @@
   }
   main .finisher-header {
     height: 100vh;
+  }
+  main .video-text {
+    font-size: 0.7rem;
+    top: 18%;
+  }
+  main .video-text h1 {
+    font-size: 0.7rem;
+  }
+  main .video-text a {
+    top: 70%;
+    left: 20%;
+    font-size: 0.9rem;
   }
 }
 @media (max-width: 375px) {
@@ -188,12 +296,30 @@
   main .finisher-header {
     height: 100vh;
   }
+  main .video-text {
+    font-size: 0.7rem;
+    top: 25%;
+  }
+  main .video-text h1 {
+    font-size: 0.7rem;
+  }
+  main .video-text a {
+    top: 70%;
+    left: 20%;
+    font-size: 0.9rem;
+  }
 }
 /* Fuente y tipografia */
 @font-face {
   font-family: "ASUS Sans";
   src: url(../assets/font/LT\ Asus\ Light\ 300.ttf);
+  font-weight: bold;
   font-weight: 300;
+}
+@font-face {
+  font-family: "ASUS Bolder";
+  src: url(../assets/font/LT\ Asus\ Bold\ 700.ttf);
+  font-weight: 700;
 }
 @font-face {
   font-family: "Asus ROG";
@@ -245,6 +371,36 @@ section .texto-justificado {
 }
 section .size-20 {
   font-size: 20px;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+}
+
+.video-text {
+  font-family: "ASUS Bolder";
+  position: absolute;
+  top: 60%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+.video-text a {
+  text-decoration: none;
+  position: absolute;
+  left: 50%;
+}
+
+#hero h1 {
+  animation: fadeIn;
+  animation-duration: 4s;
+}
+#hero p {
+  animation: fadeIn;
+  animation-duration: 10s;
 }
 
 .font-asus-title {
