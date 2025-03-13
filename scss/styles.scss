@@ -29,6 +29,15 @@
     src: url(../assets/font/Zebulon.otf);
 }
 
+.roboto-font {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
 /* Clases y estilos */
 
 * {
@@ -66,6 +75,15 @@
 
 
 
+.bg__about{
+    @include height(80vh);
+    background: #000000;
+    background: -webkit-linear-gradient(to top,hsla(0, 0%, 26%, 0.575), hsla(0, 0%, 0%, 0.438)), url(../assets/img/aboutus.jpg);  
+    background: linear-gradient(to top, hsla(0, 0%, 26%, 0.575), hsla(0, 0%, 0%, 0.438)), url(../assets/img/aboutus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
 
 section{
     
@@ -128,7 +146,37 @@ video {
     }
 }
 
+#nosotrosAsus{
+    
+    .card{
+        @include height(90vh);
+    }
+
+    .box-1{
+        background-image: url(../assets/img/box1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+
+    .box-2{
+        background-image: url(../assets/img/box2.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+
+    .box-3{
+        height: 40vh;
+        background-image: url(../assets/img/box);
+        background-position: center;
+        background-repeat: no-repeat;
+        object-fit: cover
+    }
+}
+
 #hero{
+
     h1{
         animation: fadeIn;
         animation-duration: 4s;
@@ -143,11 +191,11 @@ video {
 .font-asus-title{
     font-family: 'ASUS Sans Serif';
     @include font-size(100px);
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(36, 33, 243, 0.904);
 }
 
 .text-subtitle-color{
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(36, 33, 243, 0.904);
 }
 
 .why__us{
