@@ -427,13 +427,6 @@ video {
   background-repeat: no-repeat;
   object-fit: cover;
 }
-#nosotrosAsus .box-3 {
-  height: 40vh;
-  background-image: url(../assets/img/box);
-  background-position: center;
-  background-repeat: no-repeat;
-  object-fit: cover;
-}
 
 #hero h1 {
   animation: fadeIn;
