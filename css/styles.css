@@ -428,6 +428,25 @@ video {
   object-fit: cover;
 }
 
+#features {
+  background-color: #b9b9c0;
+}
+#features .slogan {
+  color: #f0eae5;
+}
+#features .slogan-2 {
+  color: #333333;
+}
+#features .item-1 {
+  background-color: #fff8f1;
+}
+#features .item-1 h3 {
+  color: #252525;
+}
+#features .item-1 p {
+  color: #909094;
+}
+
 #hero h1 {
   animation: fadeIn;
   animation-duration: 4s;
