@@ -429,16 +429,22 @@ video {
 }
 
 #features {
-  background-color: #b9b9c0;
+  background-color: #f2f3f7;
 }
 #features .slogan {
-  color: #f0eae5;
+  color: #8294dd;
 }
 #features .slogan-2 {
   color: #333333;
 }
+#features .slogan-3 {
+  color: rgba(20, 20, 20, 0.8078431373);
+}
+#features .slogan-4 {
+  color: #7D8491;
+}
 #features .item-1 {
-  background-color: #fff8f1;
+  background-color: #ffffff;
 }
 #features .item-1 h3 {
   color: #252525;
