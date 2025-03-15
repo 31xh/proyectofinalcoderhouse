@@ -200,6 +200,36 @@ video {
     
 }
 
+#awards{
+    background-image: url(../assets/img/awardsbanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    @include height(100vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#awardCards{
+    .card{
+        background-color: #f4f3f3;
+
+        h3{
+            @include font-size(4.5rem);
+        }
+    }
+}
+
+#reconocimientos{
+    .card{
+        background-color: #f4f3f3;
+        p{
+            @include font-size(1.5rem);
+        }
+    }
+}
+
 
 #hero{
 

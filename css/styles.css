@@ -453,6 +453,31 @@ video {
   color: #909094;
 }
 
+#awards {
+  background-image: url(../assets/img/awardsbanner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#awardCards .card {
+  background-color: #f4f3f3;
+}
+#awardCards .card h3 {
+  font-size: 4.5rem;
+}
+
+#reconocimientos .card {
+  background-color: #f4f3f3;
+}
+#reconocimientos .card p {
+  font-size: 1.5rem;
+}
+
 #hero h1 {
   animation: fadeIn;
   animation-duration: 4s;
