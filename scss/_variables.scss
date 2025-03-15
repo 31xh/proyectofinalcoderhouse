@@ -1,3 +1,33 @@
+
+/* Fonts */
+@font-face {
+    font-family: 'ASUS Sans';
+    src: url('../assets/font/LT Asus Light 300.ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'ASUS Bolder';
+    src: url('../assets/font/LT Asus Bold 700.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Asus ROG';
+    src: url('../assets/font/asusrog_regular.ttf');
+}
+
+@font-face {
+    font-family: 'ASUS Sans Serif';
+    src: url('../assets/font/Zebulon.otf');
+}
+
+$asus-sans: 'ASUS Sans', sans-serif;
+$asus-bolder: 'ASUS Bolder', sans-serif;
+$asus-rog: 'Asus ROG', sans-serif;
+$asus-sans-serif: 'ASUS Sans Serif', sans-serif;
+
+
 /* Colores */
 $navAColour: #0d4bd1;
 $sectionSpanColour: #c5ccd4;

@@ -1,21 +1,28 @@
 /* Imports */
+/* Fonts */
+@font-face {
+  font-family: "ASUS Sans";
+  src: url("../assets/font/LT Asus Light 300.ttf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "ASUS Bolder";
+  src: url("../assets/font/LT Asus Bold 700.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Asus ROG";
+  src: url("../assets/font/asusrog_regular.ttf");
+}
+@font-face {
+  font-family: "ASUS Sans Serif";
+  src: url("../assets/font/Zebulon.otf");
+}
 /* Colores */
 /* Card vars */
 /* Rog Card */
 /* Mixins generales */
 @media (max-width: 1024px) {
-  main .main__productos__title {
-    font-size: 5.5rem;
-    line-height: 5.5rem;
-    max-width: 90%;
-    margin: 0 auto;
-  }
-  main .main__productos__subtitle {
-    font-size: 3.5rem;
-    line-height: 4.5rem;
-    max-width: 90%;
-    margin: 0 auto;
-  }
   main .font-asus-title {
     font-size: 4rem;
   }
@@ -36,16 +43,6 @@
   }
 }
 @media (max-width: 768px) {
-  main .main__productos__title {
-    font-size: 3.5rem;
-    line-height: 4.5rem;
-    text-align: center;
-  }
-  main .main__productos__subtitle {
-    font-size: 5.5rem;
-    line-height: 7.5rem;
-    text-align: center;
-  }
   main .font-asus-title {
     font-size: 4rem;
   }
@@ -66,16 +63,6 @@
   }
 }
 @media (max-width: 430px) {
-  main .main__productos__title {
-    font-size: 3.5rem;
-    line-height: 4.5rem;
-    text-align: center;
-  }
-  main .main__productos__subtitle {
-    font-size: 3rem;
-    line-height: 4.5rem;
-    text-align: center;
-  }
   main .font-asus-title {
     font-size: 4rem;
   }
@@ -96,16 +83,6 @@
   }
 }
 @media (max-width: 414px) {
-  main .main__productos__title {
-    font-size: 3.5rem;
-    line-height: 4.5rem;
-    text-align: center;
-  }
-  main .main__productos__subtitle {
-    font-size: 3rem;
-    line-height: 4.5rem;
-    text-align: center;
-  }
   main .font-asus-title {
     font-size: 4rem;
   }
@@ -126,16 +103,6 @@
   }
 }
 @media (max-width: 375px) {
-  main .main__productos__title {
-    font-size: 2.5rem;
-    line-height: 3.5rem;
-    text-align: center;
-  }
-  main .main__productos__subtitle {
-    font-size: 2.5rem;
-    line-height: 3.5rem;
-    text-align: center;
-  }
   main .font-asus-title {
     font-size: 3rem;
   }
@@ -158,18 +125,6 @@
 /* Mixins generales */
 /* Mixins generales */
 @media (max-width: 1024px) {
-  main .main__productos__title {
-    font-size: 5.5rem;
-    line-height: 5.5rem;
-    max-width: 90%;
-    margin: 0 auto;
-  }
-  main .main__productos__subtitle {
-    font-size: 3.5rem;
-    line-height: 4.5rem;
-    max-width: 90%;
-    margin: 0 auto;
-  }
   main .font-asus-title {
     font-size: 4rem;
   }
@@ -190,16 +145,6 @@
   }
 }
 @media (max-width: 768px) {
-  main .main__productos__title {
-    font-size: 3.5rem;
-    line-height: 4.5rem;
-    text-align: center;
-  }
-  main .main__productos__subtitle {
-    font-size: 5.5rem;
-    line-height: 7.5rem;
-    text-align: center;
-  }
   main .font-asus-title {
     font-size: 4rem;
   }
@@ -220,16 +165,6 @@
   }
 }
 @media (max-width: 430px) {
-  main .main__productos__title {
-    font-size: 3.5rem;
-    line-height: 4.5rem;
-    text-align: center;
-  }
-  main .main__productos__subtitle {
-    font-size: 3rem;
-    line-height: 4.5rem;
-    text-align: center;
-  }
   main .font-asus-title {
     font-size: 4rem;
   }
@@ -250,16 +185,6 @@
   }
 }
 @media (max-width: 414px) {
-  main .main__productos__title {
-    font-size: 3.5rem;
-    line-height: 4.5rem;
-    text-align: center;
-  }
-  main .main__productos__subtitle {
-    font-size: 3rem;
-    line-height: 4.5rem;
-    text-align: center;
-  }
   main .font-asus-title {
     font-size: 4rem;
   }
@@ -280,16 +205,6 @@
   }
 }
 @media (max-width: 375px) {
-  main .main__productos__title {
-    font-size: 2.5rem;
-    line-height: 3.5rem;
-    text-align: center;
-  }
-  main .main__productos__subtitle {
-    font-size: 2.5rem;
-    line-height: 3.5rem;
-    text-align: center;
-  }
   main .font-asus-title {
     font-size: 3rem;
   }
@@ -310,25 +225,6 @@
   }
 }
 /* Fuente y tipografia */
-@font-face {
-  font-family: "ASUS Sans";
-  src: url(../assets/font/LT\ Asus\ Light\ 300.ttf);
-  font-weight: bold;
-  font-weight: 300;
-}
-@font-face {
-  font-family: "ASUS Bolder";
-  src: url(../assets/font/LT\ Asus\ Bold\ 700.ttf);
-  font-weight: 700;
-}
-@font-face {
-  font-family: "Asus ROG";
-  src: url(../assets/font/asusrog_regular.ttf);
-}
-@font-face {
-  font-family: "ASUS Sans Serif";
-  src: url(../assets/font/Zebulon.otf);
-}
 .roboto-font {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
@@ -337,7 +233,7 @@
   font-variation-settings: "wdth" 100;
 }
 
-/* Clases y estilos */
+/* Clases y estilos generales*/
 * {
   box-sizing: border-box;
   margin: 0;
@@ -364,54 +260,8 @@
 .icon-size {
   font-size: 40px;
   padding-right: 10px;
-}
-
-.main__hero__bg {
-  background: rgb(218, 217, 235);
-  background: linear-gradient(90deg, rgb(218, 217, 235) 0%, rgb(165, 165, 179) 88%, rgb(162, 168, 170) 100%);
-}
-
-.bg__about {
-  height: 80vh;
-  background: #000000;
-  background: -webkit-linear-gradient(to top, hsla(0, 0%, 26%, 0.575), hsla(0, 0%, 0%, 0.438)), url(../assets/img/aboutus.jpg);
-  background: linear-gradient(to top, hsla(0, 0%, 26%, 0.575), hsla(0, 0%, 0%, 0.438)), url(../assets/img/aboutus.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
-
-section span {
-  background-color: #c5ccd4;
-}
-section .texto-justificado {
-  text-align: justify;
-}
-section .size-20 {
-  font-size: 20px;
-}
-
-video {
-  width: 100%;
-  height: 100%;
-}
-
-.video-text {
-  font-family: "ASUS Bolder";
-  position: absolute;
-  top: 60%;
-  left: 70%;
-  transform: translate(-50%, -50%);
-  font-size: 2rem;
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
-}
-.video-text a {
-  text-decoration: none;
-  position: absolute;
-  left: 50%;
-}
-
+} /* Fin de clases y estilos generales */
+/* IDs */
 #nosotrosAsus .card {
   height: 90vh;
 }
@@ -487,8 +337,128 @@ video {
   animation-duration: 10s;
 }
 
+#rog {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #000;
+  background-image: url(../assets/img/rogbg.png);
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+#rog h2 {
+  font-family: "Asus ROG", sans-serif;
+  color: #e02323;
+}
+#rog .custom__card {
+  width: 320px;
+  height: 480px;
+  border-radius: 8px;
+  background-color: rgba(49, 42, 42, 0.3215686275);
+  backdrop-filter: blur(1px);
+  box-shadow: 5px 15px 22px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  margin: 5px;
+}
+#rog .custom__card h3 {
+  color: #000;
+}
+#rog .custom__card p {
+  color: #000;
+}
+#rog .custom__card .card__img {
+  padding: 16px;
+}
+#rog .custom__card .card__img img {
+  width: 100%;
+  transition: 0.3s;
+}
+#rog .custom__card .card__desc {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  opacity: 0;
+  width: 100%;
+  padding: 16px;
+  background-color: #e02323;
+  transition: 0.3s;
+}
+#rog .custom__card:hover .card__img img {
+  transform: scale(1.1);
+  transform: translateY(-120px);
+}
+#rog .custom__card:hover .card__desc {
+  opacity: 1;
+  transform: translateY(-40px);
+}
+#rog .custom__card:hover .product__btn {
+  background-color: #e02323;
+  color: #000;
+  border: 1px solid #e02323;
+  transform: translateY(50px);
+}
+#rog .product__btn {
+  background: #e02323;
+  color: #000;
+  border-radius: 35px;
+  padding: 10px 45px;
+  text-decoration: none;
+  transition: 0.3s ease;
+  font-weight: bold;
+}
+
+/* Fin de IDs */
+.main__hero__bg {
+  background: rgb(218, 217, 235);
+  background: linear-gradient(90deg, rgb(218, 217, 235) 0%, rgb(165, 165, 179) 88%, rgb(162, 168, 170) 100%);
+}
+
+.bg__about {
+  height: 80vh;
+  background: #000000;
+  background: -webkit-linear-gradient(to top, hsla(0, 0%, 26%, 0.575), hsla(0, 0%, 0%, 0.438)), url(../assets/img/aboutus.jpg);
+  background: linear-gradient(to top, hsla(0, 0%, 26%, 0.575), hsla(0, 0%, 0%, 0.438)), url(../assets/img/aboutus.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+section span {
+  background-color: #c5ccd4;
+}
+section .texto-justificado {
+  text-align: justify;
+}
+section .size-20 {
+  font-size: 20px;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+}
+
+.video-text {
+  font-family: "ASUS Bolder", sans-serif;
+  position: absolute;
+  top: 60%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+.video-text a {
+  text-decoration: none;
+  position: absolute;
+  left: 50%;
+}
+
 .font-asus-title {
-  font-family: "ASUS Sans Serif";
+  font-family: "ASUS Sans Serif", sans-serif;
   font-size: 100px;
   color: rgba(36, 33, 243, 0.904);
 }
@@ -498,7 +468,7 @@ video {
 }
 
 .why__us {
-  font-family: "ASUS Sans";
+  font-family: "ASUS Sans", sans-serif;
 }
 .why__us .box {
   padding: 40px;
@@ -547,23 +517,6 @@ video {
   -moz-transform: translateY(-10px);
 }
 
-.main__productos__title {
-  background: #373532;
-  background: linear-gradient(to right, #373532 32%, #0D4BD1 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 100px;
-}
-
-.main__products__subtitle {
-  color: #11193e;
-  background-image: linear-gradient(45deg, #11193e 30%, #2a347a 44%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 80px;
-}
-
 .catalogo a {
   text-decoration: none;
 }
@@ -598,7 +551,7 @@ video {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "ASUS Sans";
+  font-family: "ASUS Sans", sans-serif;
 }
 
 .custom__card {
@@ -663,79 +616,6 @@ video {
   font-weight: bold;
 }
 
-#rog {
-  min-height: 100vh;
-  width: 100%;
-  background-color: #000;
-  background-image: url(../assets/img/rogbg.png);
-  background-repeat: no-repeat;
-  object-fit: cover;
-}
-#rog h2 {
-  font-family: "Asus ROG";
-  color: #e02323;
-}
-#rog .custom__card {
-  width: 320px;
-  height: 480px;
-  border-radius: 8px;
-  background-color: rgba(49, 42, 42, 0.3215686275);
-  backdrop-filter: blur(1px);
-  box-shadow: 5px 15px 22px rgba(0, 0, 0, 0.2);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  position: relative;
-  margin: 5px;
-}
-#rog .custom__card h3 {
-  color: #000;
-}
-#rog .custom__card p {
-  color: #000;
-}
-#rog .custom__card .card__img {
-  padding: 16px;
-}
-#rog .custom__card .card__img img {
-  width: 100%;
-  transition: 0.3s;
-}
-#rog .custom__card .card__desc {
-  position: absolute;
-  text-align: center;
-  bottom: 0;
-  opacity: 0;
-  width: 100%;
-  padding: 16px;
-  background-color: #e02323;
-  transition: 0.3s;
-}
-#rog .custom__card:hover .card__img img {
-  transform: scale(1.1);
-  transform: translateY(-120px);
-}
-#rog .custom__card:hover .card__desc {
-  opacity: 1;
-  transform: translateY(-40px);
-}
-#rog .custom__card:hover .product__btn {
-  background-color: #e02323;
-  color: #000;
-  border: 1px solid #e02323;
-  transform: translateY(50px);
-}
-#rog .product__btn {
-  background: #e02323;
-  color: #000;
-  border-radius: 35px;
-  padding: 10px 45px;
-  text-decoration: none;
-  transition: 0.3s ease;
-  font-weight: bold;
-}
-
 .iframe-container {
   position: relative;
   width: 100%;
@@ -752,17 +632,8 @@ video {
   border: 0;
 }
 
-.c-item {
-  height: 90vh;
-}
-
-.c-img {
-  height: 100%;
-  object-fit: cover;
-}
-
 .font-asus {
-  font-family: "ASUS Sans";
+  font-family: "ASUS Sans", sans-serif;
   font-weight: 400;
 }
 
