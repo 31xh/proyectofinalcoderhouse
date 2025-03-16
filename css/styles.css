@@ -19,8 +19,6 @@
   src: url("../assets/font/Zebulon.otf");
 }
 /* Colores */
-/* Card vars */
-/* Rog Card */
 /* Mixins generales */
 @media (max-width: 1024px) {
   main .font-asus-title {
@@ -224,20 +222,18 @@
     font-size: 0.9rem;
   }
 }
-/* Fuente y tipografia */
-.roboto-font {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: bold;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-}
-
 /* Clases y estilos generales*/
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+.roboto-font {
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+  font-variation-settings: "wdth" 120;
 }
 
 .logo {
@@ -260,8 +256,8 @@
 .icon-size {
   font-size: 40px;
   padding-right: 10px;
-} /* Fin de clases y estilos generales */
-/* IDs */
+}
+
 #nosotrosAsus .card {
   height: 90vh;
 }
@@ -269,12 +265,14 @@
   background-image: url(../assets/img/box1.png);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   object-fit: cover;
 }
 #nosotrosAsus .box-2 {
   background-image: url(../assets/img/box2.jpeg);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   object-fit: cover;
 }
 
@@ -305,9 +303,10 @@
 
 #awards {
   background-image: url(../assets/img/awardsbanner.jpg);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  object-fit: cover;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -342,7 +341,9 @@
   width: 100%;
   background-color: #000;
   background-image: url(../assets/img/rogbg.png);
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   object-fit: cover;
 }
 #rog h2 {
@@ -410,7 +411,6 @@
   font-weight: bold;
 }
 
-/* Fin de IDs */
 .main__hero__bg {
   background: rgb(218, 217, 235);
   background: linear-gradient(90deg, rgb(218, 217, 235) 0%, rgb(165, 165, 179) 88%, rgb(162, 168, 170) 100%);
@@ -473,7 +473,7 @@ video {
 .why__us .box {
   padding: 40px;
   box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
-  background: #fff;
+  background: #ffffff;
   transition: 0.4s;
   height: 100%;
 }
