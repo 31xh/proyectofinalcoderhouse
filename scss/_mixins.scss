@@ -68,3 +68,16 @@
     font-size: $size;
 }
 
+@mixin font-settings($weight: bold, $style: normal, $width: 100) {
+    font-optical-sizing: auto;
+    font-weight: $weight;
+    font-style: $style;
+    font-variation-settings: "wdth" $width;
+}
+
+@mixin image-adapt($bg-pos: center, $bg-repeat: no-repeat, $objet-fit: cover, $bg-size: cover){
+    background-position: $bg-pos;
+    background-repeat: $bg-repeat;
+    background-size: $bg-size;
+    object-fit: $objet-fit;
+}

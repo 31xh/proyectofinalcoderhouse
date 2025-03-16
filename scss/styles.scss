@@ -4,17 +4,10 @@
 @import 'mixins';
 @import 'queries';
 
-/* Fuente y tipografia */
-
 
 .roboto-font {
-    font-family: "Roboto", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: bold;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  }
+    @include font-settings($weight: 700, $style: italic, $width: 120);
+}
 
   /* Clases y estilos generales*/
   
@@ -44,9 +37,9 @@
 .icon-size{
     @include font-size(40px);
     @include padding-right(10px);
-} /* Fin de clases y estilos generales */
+}
 
- /* IDs */
+
 #nosotrosAsus{
     
     .card{
@@ -55,41 +48,37 @@
 
     .box-1{
         background-image: url(../assets/img/box1.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        object-fit: cover;
+        @include image-adapt($bg-pos: center, $bg-repeat: no-repeat, $objet-fit: cover);
     }
 
     .box-2{
         background-image: url(../assets/img/box2.jpeg);
-        background-position: center;
-        background-repeat: no-repeat;
-        object-fit: cover;
+        @include image-adapt($bg-pos: center, $bg-repeat: no-repeat, $objet-fit: cover);
     }
 }
 
 #features{
 
-    background-color: #f2f3f7;
+    background-color: $featureBgcolor;
 
     .slogan{
-        color: #8294dd;
+        color: $slogan1Color;
     }
 
     .slogan-2{
-        color: #333333;
+        color: $slogan2Color;
     }
 
     .slogan-3{
-        color: #141414ce;
+        color: $slogan3Color;
     }
 
     .slogan-4{
-        color: #7D8491;
+        color: $slogan4Color;
     }
 
     .item-1{  
-        background-color: #ffffff;
+        background-color: $colorBlanco;
         h3{
             color: #252525;
         }
@@ -103,9 +92,7 @@
 
 #awards{
     background-image: url(../assets/img/awardsbanner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    @include image-adapt($bg-pos: center, $bg-repeat: no-repeat, $bg-size: cover);
     @include height(100vh);
     display: flex;
     justify-content: center;
@@ -114,7 +101,7 @@
 
 #awardCards{
     .card{
-        background-color: #f4f3f3;
+        background-color: $awardsCardColor;
 
         h3{
             @include font-size(4.5rem);
@@ -124,7 +111,7 @@
 
 #reconocimientos{
     .card{
-        background-color: #f4f3f3;
+        background-color: $awardsCardColor;
         p{
             @include font-size(1.5rem);
         }
@@ -147,10 +134,9 @@
 #rog{
     min-height: 100vh;
     @include width(100%);
-    background-color: #000;
+    background-color: $colorNegro;
     background-image: url(../assets/img/rogbg.png);
-    background-repeat: no-repeat;
-    object-fit: cover;
+    @include image-adapt($bg-repeat: no-repeat, $objet-fit: cover);
     h2{
         font-family: $asus-rog;
         color: #e02323;
@@ -171,18 +157,18 @@
         @include margin(5px);
     
         h3{
-            color: #000;
+            color: $colorNegro;
         }
         
         p{
-            color: #000;
+            color: $colorNegro;
         }
     
         .card__img{
             @include padding(16px);
     
             img{
-                width: 100%;
+                @include width(100%);
                 transition: 0.3s;
             }
         }
@@ -214,7 +200,7 @@
     
         .product__btn{
             background-color: $btnColourRog;
-            color: #000;
+            color: $colorNegro;
             border: 1px solid $btnColourRog;
             transform: translateY(50px);
         }
@@ -222,14 +208,14 @@
 
     .product__btn{
         background: $btnColourRog;
-        color: #000;
+        color: $colorNegro;
         border-radius: 35px;
         @include padding(10px 45px);
         text-decoration: none;
         transition: 0.3s ease;
         font-weight: bold;
     }
-} /* Fin de IDs */
+}
 
 .main__hero__bg{
     background: rgb(218, 217, 235);
@@ -288,31 +274,31 @@ video {
 .font-asus-title{
     font-family: $asus-sans-serif;
     @include font-size(100px);
-    color: rgba(36, 33, 243, 0.904);
+    color: $asusMainTitle;
 }
 
 .text-subtitle-color{
-    color: rgba(36, 33, 243, 0.904);
+    color: $asusMainTitle;
 }
 
 .why__us{
     font-family: $asus-sans;
     .box{
-        padding: 40px;
+        @include padding(40px);
         box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
-        background: #fff;
+        background: $colorBlanco;
         transition: 0.4s;
-        height: 100%;
+        @include height(100%);
 
         .icon{
             float: left;
 
             i{
-                color: #444;
-                font-size: 64px;
+                color: $iconTextColor;
+                @include font-size(64px);
                 transition: 0.5s;
                 line-height: 0;
-                margin-top: 34px;
+                @include margin-top(34px);
             }
 
             i::before{
@@ -332,7 +318,7 @@ video {
 
             a{
                 text-decoration: none;
-                color: #444;
+                color: $iconTextColor;
             }
         }
 
@@ -407,18 +393,18 @@ video {
     @include margin(5px);
 
     h3{
-        color: #F3F3F3
+        color: $productosTextColor;
     }
     
     p{
-        color: #F3F3F3
+        color: $productosTextColor;
     }
 
     .card__img{
         @include padding(16px);
 
         img{
-            width: 100%;
+            @include width(100%);
             transition: 0.3s;
         }
     }
@@ -458,7 +444,7 @@ video {
 
 .product__btn{
     background: $btnColour;
-    color: #F3F3F3;
+    color: $productosCardColor;
     border-radius: 35px;
     @include padding(10px 45px);
     text-decoration: none;
