@@ -5,16 +5,16 @@
 @import 'queries';
 
 
-.roboto-font {
-    @include font-settings($weight: 700, $style: italic, $width: 120);
-}
+/* Clases y estilos generales*/
 
-  /* Clases y estilos generales*/
-  
-  * {
+* {
     box-sizing: border-box;
     @include margin (0);
     @include padding (0);
+}
+
+.roboto-font {
+    @include font-settings($weight: 700, $style: italic, $width: 120);
 }
 
 .logo{
