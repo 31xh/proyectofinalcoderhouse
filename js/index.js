@@ -8,8 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
-
-
 document.addEventListener("DOMContentLoaded", () => {
     const videos = document.querySelectorAll("video");
     const animatedElements = document.querySelectorAll("[data-aos]");

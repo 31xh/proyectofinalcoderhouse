@@ -109,6 +109,81 @@
                 font-size: 0.9rem;
             }
         }
+
+        #nosotrosAsus{
+    
+            .card{
+                @include height(90vh);
+            }
+        
+            .box-1{
+                background-image: url(../assets/img/mainsm1.jpg);
+                @include image-adapt($bg-pos: center, $bg-repeat: no-repeat, $objet-fit: cover);
+
+                h2{
+                    text-align: center;
+                    font-size: 3.0rem;
+                }
+
+                h3{
+                    color: $slogan3Color;
+                    font-weight: bolder;
+                    text-align: center;
+                    font-size: 1.5rem;
+                    max-width: 100%;
+                }
+
+                p{
+                    font-size: 1.4rem;
+                    max-width: fit-content;
+                    text-align: center;
+                }
+            }
+        
+            .box-2{
+                background-image: url(../assets/img/mainsm2.jpg);
+                @include image-adapt($bg-pos: center, $bg-repeat: no-repeat, $objet-fit: cover);
+
+                h2{
+                    font-size: 3.0rem;
+                    text-align: center;
+                }
+
+                h3{
+                    color: $slogan3Color;
+                    font-weight: bolder;
+                    text-align: center;
+                    font-size: 1.5rem;
+                    max-width: 100%;
+                }
+
+                p{
+                    font-size: 1.4rem;
+                    max-width: fit-content;
+                    text-align: center;
+                }
+            }
+        
+            .box-3{
+                background-image: url(../assets/img/mainsm3.jpg);
+                @include image-adapt($bg-pos: center, $bg-repeat: no-repeat, $objet-fit: cover);
+                color: $slogan3Color;
+                text-align: center;
+        
+                h2{
+                    @include font-size(3.0rem);
+                }
+
+                h3{
+                    font-size: 1.5rem;
+                }
+
+                p{
+                    font-size: 1.5rem;
+                    max-width: fit-content;
+                }
+            }
+        }
     }
 }
 
@@ -136,6 +211,78 @@
                 top: 70%;
                 left: 20%;
                 font-size: 0.9rem;
+            }
+        }
+
+        #nosotrosAsus{
+    
+            .card{
+                @include height(90vh);
+            }
+        
+            .box-1{
+                background-image: url(../assets/img/mainsm1.jpg);
+                @include image-adapt($bg-pos: center, $bg-repeat: no-repeat, $objet-fit: cover);
+
+                h2{
+                    text-align: center;
+                }
+
+                h3{
+                    color: $slogan3Color;
+                    font-weight: bolder;
+                    text-align: center;
+                    font-size: 1.0rem;
+                    max-width: 100%;
+                }
+
+                p{
+                    font-size: 1.1rem;
+                    max-width: fit-content;
+                    text-align: center;
+                }
+            }
+        
+            .box-2{
+                background-image: url(../assets/img/mainsm2.jpg);
+                @include image-adapt($bg-pos: center, $bg-repeat: no-repeat, $objet-fit: cover);
+
+                h2{
+                    text-align: center;
+                }
+
+                h3{
+                    color: $slogan3Color;
+                    font-weight: bolder;
+                    text-align: center;
+                    font-size: 1.0rem;
+                    max-width: 100%;
+                }
+
+                p{
+                    max-width: fit-content;
+                    text-align: center;
+                }
+            }
+        
+            .box-3{
+                background-image: url(../assets/img/mainsm3.jpg);
+                @include image-adapt($bg-pos: center, $bg-repeat: no-repeat, $objet-fit: cover);
+                color: $slogan3Color;
+                text-align: center;
+        
+                h2{
+                    @include font-size(2.0rem);
+                }
+
+                h3{
+                    @include font-size(1.2rem);
+                }
+
+                p{
+                    @include font-size(1.2rem);
+                    max-width: fit-content;
+                }
             }
         }
     }

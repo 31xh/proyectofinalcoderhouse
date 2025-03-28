@@ -32,6 +32,9 @@
     @include padding-right(10px);
 }
 
+.font-asus2{
+    font-family: $asus;
+}
 
 #nosotrosAsus{
     
@@ -40,13 +43,37 @@
     }
 
     .box-1{
-        background-image: url(../assets/img/box1.png);
+        background-image: url(../assets/img/main1.jpg);
         @include image-adapt($bg-pos: center, $bg-repeat: no-repeat, $objet-fit: cover);
+
+        h3{
+            max-width: 75%;
+        }
+        p{
+            max-width: 50%;
+        }
     }
 
     .box-2{
-        background-image: url(../assets/img/box2.jpeg);
+        background-image: url(../assets/img/main2.jpg);
         @include image-adapt($bg-pos: center, $bg-repeat: no-repeat, $objet-fit: cover);
+    }
+
+    .box-3{
+        background-image: url(../assets/img/main3.jpg);
+        @include image-adapt($bg-pos: center, $bg-repeat: no-repeat, $objet-fit: cover);
+        color: $slogan3Color;
+
+        h2{
+            max-width: 100%;
+            @include font-size(60px);
+
+        }
+        
+        P{
+            font-size: 20px;
+            max-width: 50%;
+        }
     }
 }
 

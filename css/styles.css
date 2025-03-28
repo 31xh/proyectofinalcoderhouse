@@ -6,6 +6,11 @@
   font-weight: 300;
 }
 @font-face {
+  font-family: "ASUS Sans";
+  src: url("../assets/font/LT Asus 400.ttf");
+  font-weight: 400;
+}
+@font-face {
   font-family: "ASUS Bolder";
   src: url("../assets/font/LT Asus Bold 700.ttf");
   font-weight: 700;
@@ -99,6 +104,74 @@
     left: 20%;
     font-size: 0.9rem;
   }
+  main #nosotrosAsus .card {
+    height: 90vh;
+  }
+  main #nosotrosAsus .box-1 {
+    background-image: url(../assets/img/mainsm1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+  }
+  main #nosotrosAsus .box-1 h2 {
+    text-align: center;
+    font-size: 3rem;
+  }
+  main #nosotrosAsus .box-1 h3 {
+    color: rgba(20, 20, 20, 0.8078431373);
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.5rem;
+    max-width: 100%;
+  }
+  main #nosotrosAsus .box-1 p {
+    font-size: 1.4rem;
+    max-width: fit-content;
+    text-align: center;
+  }
+  main #nosotrosAsus .box-2 {
+    background-image: url(../assets/img/mainsm2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+  }
+  main #nosotrosAsus .box-2 h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  main #nosotrosAsus .box-2 h3 {
+    color: rgba(20, 20, 20, 0.8078431373);
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.5rem;
+    max-width: 100%;
+  }
+  main #nosotrosAsus .box-2 p {
+    font-size: 1.4rem;
+    max-width: fit-content;
+    text-align: center;
+  }
+  main #nosotrosAsus .box-3 {
+    background-image: url(../assets/img/mainsm3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    color: rgba(20, 20, 20, 0.8078431373);
+    text-align: center;
+  }
+  main #nosotrosAsus .box-3 h2 {
+    font-size: 3rem;
+  }
+  main #nosotrosAsus .box-3 h3 {
+    font-size: 1.5rem;
+  }
+  main #nosotrosAsus .box-3 p {
+    font-size: 1.5rem;
+    max-width: fit-content;
+  }
 }
 @media (max-width: 375px) {
   main .font-asus-title {
@@ -118,6 +191,71 @@
     top: 70%;
     left: 20%;
     font-size: 0.9rem;
+  }
+  main #nosotrosAsus .card {
+    height: 90vh;
+  }
+  main #nosotrosAsus .box-1 {
+    background-image: url(../assets/img/mainsm1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+  }
+  main #nosotrosAsus .box-1 h2 {
+    text-align: center;
+  }
+  main #nosotrosAsus .box-1 h3 {
+    color: rgba(20, 20, 20, 0.8078431373);
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1rem;
+    max-width: 100%;
+  }
+  main #nosotrosAsus .box-1 p {
+    font-size: 1.1rem;
+    max-width: fit-content;
+    text-align: center;
+  }
+  main #nosotrosAsus .box-2 {
+    background-image: url(../assets/img/mainsm2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+  }
+  main #nosotrosAsus .box-2 h2 {
+    text-align: center;
+  }
+  main #nosotrosAsus .box-2 h3 {
+    color: rgba(20, 20, 20, 0.8078431373);
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1rem;
+    max-width: 100%;
+  }
+  main #nosotrosAsus .box-2 p {
+    max-width: fit-content;
+    text-align: center;
+  }
+  main #nosotrosAsus .box-3 {
+    background-image: url(../assets/img/mainsm3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    color: rgba(20, 20, 20, 0.8078431373);
+    text-align: center;
+  }
+  main #nosotrosAsus .box-3 h2 {
+    font-size: 2rem;
+  }
+  main #nosotrosAsus .box-3 h3 {
+    font-size: 1.2rem;
+  }
+  main #nosotrosAsus .box-3 p {
+    font-size: 1.2rem;
+    max-width: fit-content;
   }
 }
 /* Mixins generales */
@@ -201,6 +339,74 @@
     left: 20%;
     font-size: 0.9rem;
   }
+  main #nosotrosAsus .card {
+    height: 90vh;
+  }
+  main #nosotrosAsus .box-1 {
+    background-image: url(../assets/img/mainsm1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+  }
+  main #nosotrosAsus .box-1 h2 {
+    text-align: center;
+    font-size: 3rem;
+  }
+  main #nosotrosAsus .box-1 h3 {
+    color: rgba(20, 20, 20, 0.8078431373);
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.5rem;
+    max-width: 100%;
+  }
+  main #nosotrosAsus .box-1 p {
+    font-size: 1.4rem;
+    max-width: fit-content;
+    text-align: center;
+  }
+  main #nosotrosAsus .box-2 {
+    background-image: url(../assets/img/mainsm2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+  }
+  main #nosotrosAsus .box-2 h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  main #nosotrosAsus .box-2 h3 {
+    color: rgba(20, 20, 20, 0.8078431373);
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.5rem;
+    max-width: 100%;
+  }
+  main #nosotrosAsus .box-2 p {
+    font-size: 1.4rem;
+    max-width: fit-content;
+    text-align: center;
+  }
+  main #nosotrosAsus .box-3 {
+    background-image: url(../assets/img/mainsm3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    color: rgba(20, 20, 20, 0.8078431373);
+    text-align: center;
+  }
+  main #nosotrosAsus .box-3 h2 {
+    font-size: 3rem;
+  }
+  main #nosotrosAsus .box-3 h3 {
+    font-size: 1.5rem;
+  }
+  main #nosotrosAsus .box-3 p {
+    font-size: 1.5rem;
+    max-width: fit-content;
+  }
 }
 @media (max-width: 375px) {
   main .font-asus-title {
@@ -220,6 +426,71 @@
     top: 70%;
     left: 20%;
     font-size: 0.9rem;
+  }
+  main #nosotrosAsus .card {
+    height: 90vh;
+  }
+  main #nosotrosAsus .box-1 {
+    background-image: url(../assets/img/mainsm1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+  }
+  main #nosotrosAsus .box-1 h2 {
+    text-align: center;
+  }
+  main #nosotrosAsus .box-1 h3 {
+    color: rgba(20, 20, 20, 0.8078431373);
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1rem;
+    max-width: 100%;
+  }
+  main #nosotrosAsus .box-1 p {
+    font-size: 1.1rem;
+    max-width: fit-content;
+    text-align: center;
+  }
+  main #nosotrosAsus .box-2 {
+    background-image: url(../assets/img/mainsm2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+  }
+  main #nosotrosAsus .box-2 h2 {
+    text-align: center;
+  }
+  main #nosotrosAsus .box-2 h3 {
+    color: rgba(20, 20, 20, 0.8078431373);
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1rem;
+    max-width: 100%;
+  }
+  main #nosotrosAsus .box-2 p {
+    max-width: fit-content;
+    text-align: center;
+  }
+  main #nosotrosAsus .box-3 {
+    background-image: url(../assets/img/mainsm3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    color: rgba(20, 20, 20, 0.8078431373);
+    text-align: center;
+  }
+  main #nosotrosAsus .box-3 h2 {
+    font-size: 2rem;
+  }
+  main #nosotrosAsus .box-3 h3 {
+    font-size: 1.2rem;
+  }
+  main #nosotrosAsus .box-3 p {
+    font-size: 1.2rem;
+    max-width: fit-content;
   }
 }
 /* Clases y estilos generales*/
@@ -258,29 +529,55 @@
   padding-right: 10px;
 }
 
+.font-asus2 {
+  font-family: "ASUS", sans-serif;
+}
+
 #nosotrosAsus .card {
   height: 90vh;
 }
 #nosotrosAsus .box-1 {
-  background-image: url(../assets/img/box1.png);
+  background-image: url(../assets/img/main1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
 }
+#nosotrosAsus .box-1 h3 {
+  max-width: 75%;
+}
+#nosotrosAsus .box-1 p {
+  max-width: 50%;
+}
 #nosotrosAsus .box-2 {
-  background-image: url(../assets/img/box2.jpeg);
+  background-image: url(../assets/img/main2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
+}
+#nosotrosAsus .box-3 {
+  background-image: url(../assets/img/main3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  color: rgba(20, 20, 20, 0.8078431373);
+}
+#nosotrosAsus .box-3 h2 {
+  max-width: 100%;
+  font-size: 60px;
+}
+#nosotrosAsus .box-3 P {
+  font-size: 20px;
+  max-width: 50%;
 }
 
 #features {
   background-color: #f2f3f7;
 }
 #features .slogan {
-  color: #8294dd;
+  color: #345af3;
 }
 #features .slogan-2 {
   color: #333333;
@@ -289,7 +586,7 @@
   color: rgba(20, 20, 20, 0.8078431373);
 }
 #features .slogan-4 {
-  color: #7D8491;
+  color: #494d55;
 }
 #features .item-1 {
   background-color: #ffffff;

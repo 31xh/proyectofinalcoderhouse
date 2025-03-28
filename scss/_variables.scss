@@ -7,6 +7,12 @@
 }
 
 @font-face {
+    font-family: 'ASUS Sans';
+    src: url('../assets/font/LT\ Asus\ 400.ttf');
+    font-weight: 400;
+}
+
+@font-face {
     font-family: 'ASUS Bolder';
     src: url('../assets/font/LT Asus Bold 700.ttf');
     font-weight: 700;
@@ -22,6 +28,7 @@
     src: url('../assets/font/Zebulon.otf');
 }
 
+$asus: 'ASUS', sans-serif;
 $asus-sans: 'ASUS Sans', sans-serif;
 $asus-bolder: 'ASUS Bolder', sans-serif;
 $asus-rog: 'Asus ROG', sans-serif;
@@ -34,10 +41,10 @@ $colorNegro: #000;
 $navAColour: #0d4bd1;
 $sectionSpanColour: #c5ccd4;
 $featureBgcolor: #f2f3f7;
-$slogan1Color: #8294dd;
+$slogan1Color: #345af3;
 $slogan2Color: #333333;
 $slogan3Color: #141414ce;
-$slogan4Color: #7D8491;
+$slogan4Color: #494d55;
 $awardsCardColor: #f4f3f3;
 $rogTitle: #e02323;
 $productosTextColor: #F3F3F3;
