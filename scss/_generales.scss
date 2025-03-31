@@ -10,107 +10,109 @@
     @include font-settings($weight: 700, $style: italic, $width: 120);
 }
 
-.logo{
+.logo {
     @include width(100px);
 }
 
-.header__logo{
+.header__logo {
     @include padding-left(10px);
 }
 
-.header__link__a{
+.header__link__a {
     color: $navAColour;
     @include font-size(20px);
 }
 
-.spacing-3{
+.spacing-3 {
     @include padding-left(70px);
 }
 
-.icon-size{
+.icon-size {
     @include font-size(40px);
     @include padding-right(10px);
 }
 
-.font-asus2{
+.font-asus2 {
     font-family: $asus;
 }
 
-#nosotrosAsus{
-    
-    .card{
+#nosotrosAsus {
+
+    .card {
         @include height(90vh);
     }
 
-    .box-1{
+    .box-1 {
         background-image: url(../assets/img/main1.jpg);
         @include image-adapt($bg-pos: center, $bg-repeat: no-repeat, $objet-fit: cover);
 
-        h3{
+        h3 {
             max-width: 75%;
         }
-        p{
+
+        p {
             max-width: 50%;
         }
     }
 
-    .box-2{
+    .box-2 {
         background-image: url(../assets/img/main2.jpg);
         @include image-adapt($bg-pos: center, $bg-repeat: no-repeat, $objet-fit: cover);
     }
 
-    .box-3{
+    .box-3 {
         background-image: url(../assets/img/main3.jpg);
         @include image-adapt($bg-pos: center, $bg-repeat: no-repeat, $objet-fit: cover);
         color: $slogan3Color;
 
-        h2{
+        h2 {
             max-width: 100%;
             @include font-size(60px);
 
         }
-        
-        P{
+
+        P {
             font-size: 20px;
             max-width: 50%;
         }
     }
 }
 
-#features{
+#features {
 
     background-color: $featureBgcolor;
 
-    .slogan{
+    .slogan {
         color: $slogan1Color;
     }
 
-    .slogan-2{
+    .slogan-2 {
         color: $slogan2Color;
     }
 
-    .slogan-3{
+    .slogan-3 {
         color: $slogan3Color;
     }
 
-    .slogan-4{
+    .slogan-4 {
         color: $slogan4Color;
     }
 
-    .item-1{  
+    .item-1 {
         background-color: $colorBlanco;
-        h3{
+
+        h3 {
             color: #252525;
         }
 
-        p{
+        p {
             color: #909094;
         }
     }
-    
+
 }
 
-#awards{
+#awards {
     background-image: url(../assets/img/awardsbanner.jpg);
     @include image-adapt($bg-pos: center, $bg-repeat: no-repeat, $bg-size: cover);
     @include height(100vh);
@@ -119,81 +121,83 @@
     align-items: center;
 }
 
-#awardCards{
-    .card{
+#awardCards {
+    .card {
         background-color: $awardsCardColor;
 
-        h3{
+        h3 {
             @include font-size(4.5rem);
         }
     }
 }
 
-#reconocimientos{
-    .card{
+#reconocimientos {
+    .card {
         background-color: $awardsCardColor;
-        p{
+
+        p {
             @include font-size(1.5rem);
         }
     }
 }
 
-#hero{
+#hero {
 
-    h1{
+    h1 {
         animation: fadeIn;
         animation-duration: 4s;
     }
 
-    p{
+    p {
         animation: fadeIn;
         animation-duration: 10s;
     }
 }
 
-#rog{
+#rog {
     min-height: 100vh;
     @include width(100%);
     background-color: $colorNegro;
     background-image: url(../assets/img/rogbg.png);
     @include image-adapt($bg-repeat: no-repeat, $objet-fit: cover);
-    h2{
+
+    h2 {
         font-family: $asus-rog;
         color: #e02323;
     }
 
-    .custom__card{
+    .custom__card {
         @include width(320px);
         @include height(480px);
         border-radius: 8px;
         background-color: $cardBgRog;
         backdrop-filter: blur(1px);
-        box-shadow: 5px 15px 22px rgba(0,0,0,0.2);
+        box-shadow: 5px 15px 22px rgba(0, 0, 0, 0.2);
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         position: relative;
         @include margin(5px);
-    
-        h3{
+
+        h3 {
             color: $colorNegro;
         }
-        
-        p{
+
+        p {
             color: $colorNegro;
         }
-    
-        .card__img{
+
+        .card__img {
             @include padding(16px);
-    
-            img{
+
+            img {
                 @include width(100%);
                 transition: 0.3s;
             }
         }
-    
-        .card__desc{
+
+        .card__desc {
             position: absolute;
             text-align: center;
             @include bottom(0);
@@ -204,21 +208,21 @@
             transition: 0.3s;
         }
     }
-    
-    .custom__card:hover{
-        .card__img{
-            img{
+
+    .custom__card:hover {
+        .card__img {
+            img {
                 transform: scale(1.1);
                 transform: translateY(-120px);
             }
         }
-    
-        .card__desc{
+
+        .card__desc {
             opacity: 1;
             transform: translateY(-40px);
         }
-    
-        .product__btn{
+
+        .product__btn {
             background-color: $btnColourRog;
             color: $colorNegro;
             border: 1px solid $btnColourRog;
@@ -226,7 +230,7 @@
         }
     }
 
-    .product__btn{
+    .product__btn {
         background: $btnColourRog;
         color: $colorNegro;
         border-radius: 35px;
@@ -237,32 +241,32 @@
     }
 }
 
-.main__hero__bg{
+.main__hero__bg {
     background: rgb(218, 217, 235);
     background: linear-gradient(90deg, rgba(218, 217, 235, 1) 0%, rgba(165, 165, 179, 1) 88%, rgba(162, 168, 170, 1) 100%);
 }
 
-.bg__about{
+.bg__about {
     @include height(80vh);
     background: #000000;
-    background: -webkit-linear-gradient(to top,hsla(0, 0%, 26%, 0.575), hsla(0, 0%, 0%, 0.438)), url(../assets/img/aboutus.jpg);  
+    background: -webkit-linear-gradient(to top, hsla(0, 0%, 26%, 0.575), hsla(0, 0%, 0%, 0.438)), url(../assets/img/aboutus.jpg);
     background: linear-gradient(to top, hsla(0, 0%, 26%, 0.575), hsla(0, 0%, 0%, 0.438)), url(../assets/img/aboutus.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed; 
+    background-attachment: fixed;
 }
 
-section{
-    
-    span{
+section {
+
+    span {
         background-color: $sectionSpanColour;
     }
-    
-    .texto-justificado{
+
+    .texto-justificado {
         text-align: justify;
     }
-    
-    .size-20{
+
+    .size-20 {
         @include font-size(20px);
     }
 
@@ -282,8 +286,8 @@ video {
     @include font-size(2rem);
     opacity: 0;
     transition: opacity 1s ease-in-out;
-    
-    a{
+
+    a {
         text-decoration: none;
         position: absolute;
         @include left(50%);
@@ -291,29 +295,30 @@ video {
 }
 
 
-.font-asus-title{
+.font-asus-title {
     font-family: $asus-sans-serif;
     @include font-size(100px);
     color: $asusMainTitle;
 }
 
-.text-subtitle-color{
+.text-subtitle-color {
     color: $asusMainTitle;
 }
 
-.why__us{
+.why__us {
     font-family: $asus-sans;
-    .box{
+
+    .box {
         @include padding(40px);
         box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
         background: $colorBlanco;
         transition: 0.4s;
         @include height(100%);
 
-        .icon{
+        .icon {
             float: left;
 
-            i{
+            i {
                 color: $iconTextColor;
                 @include font-size(64px);
                 transition: 0.5s;
@@ -321,7 +326,7 @@ video {
                 @include margin-top(34px);
             }
 
-            i::before{
+            i::before {
                 background: #0c2e8a;
                 background: linear-gradient(45deg, #5080d8 0%, #a3b6eb 100%);
                 background-clip: border-box;
@@ -330,19 +335,19 @@ video {
             }
         }
 
-        h3{
+        h3 {
             @include margin-left(100px);
             font-weight: 700;
             margin-bottom: 15px;
             @include font-size(30px);
 
-            a{
+            a {
                 text-decoration: none;
                 color: $iconTextColor;
             }
         }
 
-        p{
+        p {
             @include font-size(20px);
             @include margin-left(100px);
             @include margin-bottom(0);
@@ -350,7 +355,7 @@ video {
         }
     }
 
-    .box:hover{
+    .box:hover {
         box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
         transform: translateY(-10px);
         -webkit-transform: translateY(-10px);
@@ -358,18 +363,77 @@ video {
     }
 }
 
+#heroBlog{
+    background-image: url(../assets/img/blogbanner.jpg);
+    @include image-adapt($bg-pos: center, $bg-repeat: no-repeat, $objet-fit: cover);
+    @include height(30vh);
 
-.catalogo {
+    h1.seo-title{
+        display: none;
+    }
+}
+
+#topBlog {
+    background-image: url(../assets/img/bg.png);
+    @include image-adapt($bg-pos: center, $bg-repeat: no-repeat, $objet-fit: cover);
+
+    .slogan-blog {
+        color: $blogSlogan;
+    }
+
+    .slogan-blog2 {
+        color: $blogSlogan2;
+    }
+
+    .blog-border {
+        border-bottom: 1px solid;
+        color: $blogSlogan;
+    }
+
+    .img-blog {
+        @include height(8.8em);
+    }
+
+    
+        
+        ul.list-unstyled li {
+            a{
+                display: flex; 
+                align-items: center; 
+                gap: 10px; 
+                padding: 10px 0;
+                text-decoration: none;
+
+                p{
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+            }
+        }
+
+}
+
+#blog{
+    p{
+        font-size: 14px;
+    }
+
     a{
         text-decoration: none;
     }
 }
 
-.main__section__spacing{
+.catalogo {
+    a {
+        text-decoration: none;
+    }
+}
+
+.main__section__spacing {
     @include padding-top(20px);
 }
 
-.main__font__number{
+.main__font__number {
     @include font-size(20px);
 }
 
@@ -377,34 +441,34 @@ video {
     list-style: none;
     @include padding(0);
 
-    li{
+    li {
         @include padding-left(30px);
         @include margin-bottom(10px);
     }
 }
 
-.check-icon{
+.check-icon {
     @include font-size(37px);
     color: $navAColour;
 }
 
-.main__nuestros__productos{
+.main__nuestros__productos {
     @include height(100vh);
 }
 
-.card__products{
+.card__products {
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: $asus-sans;
 }
 
-.custom__card{
+.custom__card {
     @include width(320px);
     @include height(480px);
     border-radius: 8px;
     background-color: $cardBg;
-    box-shadow: 5px 15px 22px rgba(0,0,0,0.2);
+    box-shadow: 5px 15px 22px rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -412,24 +476,24 @@ video {
     position: relative;
     @include margin(5px);
 
-    h3{
-        color: $productosTextColor;
-    }
-    
-    p{
+    h3 {
         color: $productosTextColor;
     }
 
-    .card__img{
+    p {
+        color: $productosTextColor;
+    }
+
+    .card__img {
         @include padding(16px);
 
-        img{
+        img {
             @include width(100%);
             transition: 0.3s;
         }
     }
 
-    .card__desc{
+    .card__desc {
         position: absolute;
         text-align: center;
         @include bottom(0);
@@ -441,20 +505,20 @@ video {
     }
 }
 
-.custom__card:hover{
-    .card__img{
-        img{
+.custom__card:hover {
+    .card__img {
+        img {
             transform: scale(1.1);
             transform: translateY(-80px);
         }
     }
 
-    .card__desc{
+    .card__desc {
         opacity: 1;
         transform: translateY(-40px);
     }
 
-    .product__btn{
+    .product__btn {
         background-color: $cardBg;
         color: $btnColour;
         border: 1px solid $btnColour;
@@ -462,7 +526,7 @@ video {
     }
 }
 
-.product__btn{
+.product__btn {
     background: $btnColour;
     color: $productosTextColor;
     border-radius: 35px;
@@ -480,7 +544,7 @@ video {
     @include height (0);
     overflow: hidden;
 
-    iframe{
+    iframe {
         position: absolute;
         @include top (0);
         @include left (0);
@@ -490,12 +554,12 @@ video {
     }
 }
 
-.font-asus{
+.font-asus {
     font-family: $asus-sans;
     font-weight: 400;
 }
 
-textarea{
+textarea {
     resize: none;
 }
 
@@ -505,7 +569,7 @@ footer {
     justify-content: space-around;
     align-items: center;
 
-    ul{
+    ul {
         list-style: none;
         display: flex;
     }

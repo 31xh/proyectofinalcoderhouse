@@ -30,6 +30,12 @@
 
 @media (max-width: 768px) {
     main{
+        #heroBlog{
+            background-image: url(../assets/img/blogbanner_sm.jpg);
+            @include image-adapt($bg-pos: center, $bg-repeat: no-repeat, $objet-fit: cover);
+            @include height(65vh);
+        }
+
         .font-asus-title{
             font-size: 4.0rem;
         }

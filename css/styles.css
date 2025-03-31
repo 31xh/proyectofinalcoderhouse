@@ -46,6 +46,14 @@
   }
 }
 @media (max-width: 768px) {
+  main #heroBlog {
+    background-image: url(../assets/img/blogbanner_sm.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 65vh;
+  }
   main .font-asus-title {
     font-size: 4rem;
   }
@@ -281,6 +289,14 @@
   }
 }
 @media (max-width: 768px) {
+  main #heroBlog {
+    background-image: url(../assets/img/blogbanner_sm.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 65vh;
+  }
   main .font-asus-title {
     font-size: 4rem;
   }
@@ -812,6 +828,57 @@ video {
   transform: translateY(-10px);
   -webkit-transform: translateY(-10px);
   -moz-transform: translateY(-10px);
+}
+
+#heroBlog {
+  background-image: url(../assets/img/blogbanner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  height: 30vh;
+}
+#heroBlog h1.seo-title {
+  display: none;
+}
+
+#topBlog {
+  background-image: url(../assets/img/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+#topBlog .slogan-blog {
+  color: #5e5c5c;
+}
+#topBlog .slogan-blog2 {
+  color: #3d3b3b;
+}
+#topBlog .blog-border {
+  border-bottom: 1px solid;
+  color: #5e5c5c;
+}
+#topBlog .img-blog {
+  height: 8.8em;
+}
+#topBlog ul.list-unstyled li a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  text-decoration: none;
+}
+#topBlog ul.list-unstyled li a p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#blog p {
+  font-size: 14px;
+}
+#blog a {
+  text-decoration: none;
 }
 
 .catalogo a {

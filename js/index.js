@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const text = document.querySelector(".video-text");
 
     video.addEventListener("ended", () => {
-        
         text.style.opacity = "1";
     });
 });
