@@ -182,6 +182,14 @@
   }
 }
 @media (max-width: 375px) {
+  #heroBlog {
+    background-image: url(../assets/img/blogbanner_sm.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 65vh;
+  }
   main .font-asus-title {
     font-size: 3rem;
   }
@@ -425,6 +433,14 @@
   }
 }
 @media (max-width: 375px) {
+  #heroBlog {
+    background-image: url(../assets/img/blogbanner_sm.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: 65vh;
+  }
   main .font-asus-title {
     font-size: 3rem;
   }
@@ -879,6 +895,26 @@ video {
 }
 #blog a {
   text-decoration: none;
+}
+
+#soporteBanner {
+  height: 50vh;
+  background-image: url(../assets/img/soportebanner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+#soporteBanner div.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#soporteBanner div.row h1 {
+  font-size: 19px;
+}
+#soporteBanner div.row h2 {
+  font-size: 45px;
 }
 
 .catalogo a {

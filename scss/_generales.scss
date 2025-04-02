@@ -423,6 +423,26 @@ video {
     }
 }
 
+#soporteBanner{
+    @include height(50vh);
+    background-image: url(../assets/img/soportebanner.jpg);
+    @include image-adapt($bg-pos: center, $bg-repeat: no-repeat, $objet-fit: cover);
+
+    div.row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h1{
+            font-size: 19px;
+        }
+
+        h2{
+            font-size: 45px;
+        }
+    }
+}
+
 .catalogo {
     a {
         text-decoration: none;
